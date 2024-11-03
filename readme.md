@@ -1,4 +1,1 @@
-Cleaning Site DEMO
-Hello there
-!
-!
+Cleaning Site DEMO!
