@@ -1,0 +1,13 @@
+.main-nav ul {
+    display: block;
+}
+
+.main-nav li {
+    display: block;
+    list-style: none outside;
+}
+
+.main-nav a {
+    color: #369;
+    text-decoration: none;
+}
