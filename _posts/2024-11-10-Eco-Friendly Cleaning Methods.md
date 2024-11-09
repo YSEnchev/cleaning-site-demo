@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: blog
 title:  "Методи за екологично почистване"
 date:   2024-11-04 00:11:45 +0200
 categories: jekyll update

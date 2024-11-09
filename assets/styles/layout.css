@@ -1,5 +1,5 @@
 body {
-    padding: 2em;
+    padding: 1em;
 }
 
 .site {
@@ -10,9 +10,23 @@ body {
 .site-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 2em;
 }
 
 site-title {
     margin-bottom: 0;
+}
+
+.site-footer {
+    padding-top: 0.5em;
+    border-top: 1px solid #eee;
+    margin-top: 2em;
+}
+
+.site-footer p {
+    font-style: italic;
+    opacity: 0.5;
 }
