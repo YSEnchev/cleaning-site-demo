@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> {{ page.title }} - {{ site.title }} </title>
-    <link rel="stylesheet" href="/assets/styles/site.css">
-</head>
-<body>
-    <div class="site blog">
-        <header class="site-header">
-            <h1 class="site-title">{{site.title}}</h1>
-            {% include navigation.html %}
-        </header>
+{% include base/header.html %}
+
         <main>
             <article>
                 <header>
@@ -39,10 +27,4 @@
             </section>
         </aside>
         
-        <footer class="site-footer">
-            <p>&copy; All rights reserved - 2025</p>
-        </footer>
-        
-    </div>
-</body>
-</html>
+        {% include base/footer.html %}
