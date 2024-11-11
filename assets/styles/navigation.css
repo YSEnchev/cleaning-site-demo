@@ -11,4 +11,11 @@
     color: #369;
     text-decoration: none;
     padding: 0.5em 1em;
+    border-radius: 0.3em;
+}
+
+.main-nav li.current-page > a,
+.main-nav a:hover {
+    background: darkslateblue;
+    color: #fff;
 }

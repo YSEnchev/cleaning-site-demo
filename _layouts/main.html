@@ -11,13 +11,7 @@
         <header class="site-header">
             <h1 class="site-title">{{site.title}}</h1>
             
-            <nav class="main-nav">
-                <ul>
-                    {% for item in site.data.navigation %}
-                    <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-                    {% endfor %}
-                </ul>
-            </nav>
+            {% include include.html %}
         </header>
         
         <article>
@@ -35,4 +29,4 @@
 
     </div>
 </body>
-</html>
+</html> 

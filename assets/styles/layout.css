@@ -30,3 +30,22 @@ site-title {
     font-style: italic;
     opacity: 0.5;
 }
+
+.site.blog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.site.blog .site-header,
+.site.blog .site-footer {
+    flex: 0 0 100%;
+}
+
+.site.blog > main {
+    flex: 0 0 600px;
+}
+
+.site.blog > aside {
+    flex: 1 1 200px;
+}
