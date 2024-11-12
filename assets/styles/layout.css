@@ -31,21 +31,21 @@ site-title {
     opacity: 0.5;
 }
 
-.site.blog {
+body.layout-blog .site {
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
 }
 
-.site.blog .site-header,
-.site.blog .site-footer {
+body.layout-blog .site .site-header,
+body.layout-blog .site .site-footer {   
     flex: 0 0 100%;
 }
 
-.site.blog > main {
+body.layout-blog .site > main {
     flex: 0 0 600px;
 }
 
-.site.blog > aside {
+body.layout-blog .site > aside {
     flex: 1 1 200px;
 }
