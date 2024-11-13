@@ -1,7 +1,7 @@
 ---
 layout: blog
 title:  "Post from GitHub.dev"
-date:   2024-11-13 23:36:45 +0200
+date:   2024-11-13 22:36:45 +0200
 categories: github dev
 ---
 
