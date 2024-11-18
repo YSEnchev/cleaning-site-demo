@@ -1,11 +1,11 @@
 
 form {
-    background-color: rgba(21, 32, 42, 1);
+
 }
 
 fieldset {
     padding: 1em 1.5em;
-    border: 2px solid rgb(44, 63, 82);
+    border: 2px solid #CCC;
     border-radius: 0.2em;
     margin: 0 0 1em 0;
 }
@@ -13,7 +13,6 @@ fieldset {
 legend {
     padding: 0.5em;
     margin-left: -0.5em;
-    color: rgba(255, 255, 255, 0.8);
 }
 
 label,
@@ -32,33 +31,33 @@ input[type="submit"] {
     background-color: rgba(21, 32, 42, 1);
     border: none;
     border-radius: 0.4em;
-    color: rgba(133, 255, 122, 1);
+    color: #369;
     margin-top: 2em;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: rgba(133, 255, 122, 1);
-    color: rgba(21, 32, 42, 1);
+    background-color: #369;
+    color: #fff
 }
 
 input:is([type="text"], [type="email"], [type="password"]) {
-    border: 2px solid rgba(44, 63, 82, 1);
+    border: 2px solid #CCC;
     border-radius: 0.4em;
     background-color: transparent;
-    color: rgba(133, 255, 122, 1);
+    color: #369;
     
     &:focus {
-        border-color: rgba(133, 255, 122, 1);
+        border-color: #369;
         
         & ~ label {
-            color: rgba(133, 255, 122, 1);
+            color: #369;
         }
         
         & ~ i {
-            border-color: rgba(133, 255, 122, 1);
-            background-color: rgba(133, 255, 122, 1);
-            color: rgba(44, 63, 82, 1);
+            border-color: #369;
+            background-color: #369;
+            color: #CCC;
         }
     }
     
@@ -72,12 +71,12 @@ input:is([type="text"], [type="email"], [type="password"]) {
         & ~ i {
             border-color: red;
             background-color: red;
-            color: rgba(44, 63, 82, 1);
+            color: #CCC;
         }
     }
 }
 
-.register {
+.contact {
     max-width: 400px;
     margin: 0 auto;
     padding: 2em;
@@ -86,13 +85,13 @@ input:is([type="text"], [type="email"], [type="password"]) {
     border-radius: 0.5em;
 }
 
-.register .header {
+.contact .header {
     position: relative;
     padding: 2em 0;
     margin-bottom: 2em;
 }
 
-.register .header::before {
+.contact .header::before {
     position: absolute;
     inset: 0;
     display: block;
@@ -102,10 +101,10 @@ input:is([type="text"], [type="email"], [type="password"]) {
     transform: perspective(60px) rotateX(-2deg) rotateY(-1deg) translateX(-0.3em);
 }
 
-.register .header h1 {
+.contact .header h1 {
     text-align: center;
     z-index: 1000;
-    color: rgba(133, 255, 122, 1);
+    color: #369;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -121,7 +120,6 @@ input:is([type="text"], [type="email"], [type="password"]) {
 }
 
 .field label {
-    color: rgba(133, 255, 122, 0.5);
     order: -1;
 }
 
@@ -129,8 +127,7 @@ input:is([type="text"], [type="email"], [type="password"]) {
     display: flex;
     align-items: center;
     padding: 0 1em;
-    color: rgba(133, 255, 122, 1);
-    border: 2px solid rgba(44, 63, 82, 1);
+    border: 2px solid #CCC;
     border-radius: 0.4em;
     border-right: 0;
     border-top-right-radius: 0;

@@ -9,6 +9,10 @@
 } */
 /* navigation fixed top */
 
+.main-nav { 
+    background: #fff;
+    padding: 1em;
+}
 
 .main-nav ul {
     display: flex;
