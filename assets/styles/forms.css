@@ -15,13 +15,14 @@ legend {
     margin-left: -0.5em;
 }
 
+textarea,
 label,
 input {
     display: block;
     width: 100%;
 }
 
-input {
+input, textarea {
     outline: none;
     padding: 0.6em 0.8em;
 }
@@ -62,7 +63,7 @@ input:is(
         & ~ i {
             border-color: #369;
             background-color: #369;
-            color: #CCC;
+            color: #fff;
         }
     }
     
@@ -106,7 +107,7 @@ input:is(
     transform: perspective(60px) rotateX(-2deg) rotateY(-1deg) translateX(-0.3em);
 }
 
-.contact .header h1 {
+/* .contact .header h1 {
     text-align: center;
     z-index: 1000;
     color: #369;
@@ -115,7 +116,7 @@ input:is(
     left: 50%;
     transform: translate(-50%, -50%);
     letter-spacing: 0.1em;
-}
+} */
 
 .field {
     padding-bottom: 0.5em;
@@ -132,7 +133,7 @@ input:is(
     display: flex;
     align-items: center;
     padding: 0 1em;
-    border: 2px solid #CCC;
+    border: 2px solid #fff;
     border-radius: 0.4em;
     border-right: 0;
     border-top-right-radius: 0;
