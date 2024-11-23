@@ -1,6 +1,12 @@
+:root {
+    color-scheme: light dark;
+}
+
 body {
     padding: 2em;
     /* padding-top: 7em; */
+    background: light-dark(#FFFFFF,#86C232);
+    color: light-dark(#86C232, #FFFFFF);
 }
 
 .site {
@@ -13,11 +19,11 @@ body {
     justify-content: space-between;
     align-items: baseline;
     padding-bottom: 0.5em;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid light-dark(#333b3c, #efefec);
     margin-bottom: 2em;
 }
 
-site-title {
+.site-title {
     margin-bottom: 0;
     line-height: 1;
     font-size: 2.5em;
