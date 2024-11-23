@@ -2,16 +2,16 @@
     color-scheme: light dark;
 }
 
-dody.theme-light {
+body.theme-light {
 
-    --clr-background: #FFF;
-    --clr-text: #86C232;
+    --clr-background: black;
+    --clr-text: red;
     
 }
 
-dody.theme-dark {
+body.theme-dark {
 
-    --clr-background: #86C232;
-    --clr-text: #FFF;
+    --clr-background: #F0F0F0;
+    --clr-text: #4682B4;
     
 }
