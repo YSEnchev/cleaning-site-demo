@@ -32,14 +32,14 @@ input[type="submit"] {
     background-color: rgba(21, 32, 42, 1);
     border: none;
     border-radius: 0.4em;
-    color: #369;
+    color: #86C232;
     margin-top: 2em;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #369;
-    color: #fff
+    background-color: #86C232;
+    color: #CCC
 }
 
 
@@ -51,18 +51,18 @@ input:is(
     border: 2px solid #CCC;
     border-radius: 0.4em;
     background-color: transparent;
-    color: #369;
+    color: #86C232;
     
     &:focus {
-        border-color: #369;
+        border-color: #86C232;
         
         & ~ label {
-            color: #369;
+            color: #86C232;
         }
         
         & ~ i {
-            border-color: #369;
-            background-color: #369;
+            border-color: #86C232;
+            background-color: #86C232;
             color: #fff;
         }
     }
@@ -110,7 +110,7 @@ input:is(
 /* .contact .header h1 {
     text-align: center;
     z-index: 1000;
-    color: #369;
+    color: #86C232;
     position: absolute;
     top: 50%;
     left: 50%;

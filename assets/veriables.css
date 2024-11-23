@@ -1,0 +1,17 @@
+:root {
+    color-scheme: light dark;
+}
+
+dody.theme-light {
+
+    --clr-background: #FFF;
+    --clr-text: #86C232;
+    
+}
+
+dody.theme-dark {
+
+    --clr-background: #86C232;
+    --clr-text: #FFF;
+    
+}

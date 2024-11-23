@@ -1,12 +1,10 @@
-:root {
-    color-scheme: light dark;
-}
 
 body {
     padding: 2em;
     /* padding-top: 7em; */
-    background: light-dark(#FFFFFF,#86C232);
-    color: light-dark(#86C232, #FFFFFF);
+    background: var(--clr-background);
+    color: var(--clr-text);
+    
 }
 
 .site {

@@ -10,7 +10,6 @@
 /* navigation fixed top */
 
 .main-nav { 
-    background: #fff;
     padding: 1em;
 }
 
@@ -25,7 +24,7 @@
 
 .main-nav a {
     display: block;
-    color: #369;
+    color: #86C232;
     text-decoration: none;
     padding: 0.5em 1em;
     border-radius: 0.3em;
@@ -33,6 +32,6 @@
 
 .main-nav li.current-page > a,
 .main-nav a:hover {
-    background: darkslateblue;
-    color: #fff;
+    background:#86C232;
+    color: #F0F0F0;
 }
