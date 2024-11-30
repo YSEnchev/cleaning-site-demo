@@ -13,4 +13,6 @@
 #dark:checked ~ .site {
     --clr-background: #F0F0F0;
     --clr-text: #4682B4;
+
+    border: 20px solid red;
 }

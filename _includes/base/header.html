@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.meta-description %}
+    <meta name="descrition" content="{{ page.meta-description}}">
+    {% endif %}
     <title> {{ page.title }} - {{ site.title }} </title>
     <link rel="stylesheet" href="/assets/styles/site.css">
 </head>
@@ -12,11 +15,12 @@
 
   
         <input type="radio" name="theme" id="Light">
-        <input type="radio" name="theme" id="dark">
+        <input type="radio" name="theme" id="Dark">
 
     </select>
     
     <div class="site">
+
         <header class="site-header">
             <h1 class="site-title">{{site.title}}</h1>
             

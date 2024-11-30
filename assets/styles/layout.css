@@ -1,21 +1,22 @@
 
 body {
-    padding: 2em;
-    /* padding-top: 7em; */
-    background: var(--clr-background);
-    color: var(--clr-text);
+    /* padding: 2em;
+    padding-top: 7em; */
+
     
 }
 
 .site {
     max-width: 900px;
     margin: 0 auto;
+    background: var(--clr-background);
+    color: var(--clr-text);
 }
 
 .site-header {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     padding-bottom: 0.5em;
     border-bottom: 1px solid light-dark(#4682B4, #FFF);
     margin-bottom: 2em;
@@ -29,7 +30,7 @@ body {
 
 .site-footer {
     padding-top: 0.5em;
-    border-top: 1px solid #eee;
+    border-top: 1px solid rgb(238, 238, 238);
     margin-top: 2em;
 }
 
