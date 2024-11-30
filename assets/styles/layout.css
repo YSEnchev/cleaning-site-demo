@@ -1,9 +1,6 @@
 
 body {
-    /* padding: 2em;
-    padding-top: 7em; */
-
-    
+    padding: 2em;
 }
 
 .site {
@@ -16,10 +13,20 @@ body {
 .site-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     padding-bottom: 0.5em;
     border-bottom: 1px solid light-dark(#4682B4, #FFF);
     margin-bottom: 2em;
+    opacity: 0;
+    transform: translateY(-5em);
+    transition: 
+    opacity 0.4s ease-in,
+    transform 0.4s ease-in-out;
+}
+
+body.loaded .site-header {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .site-title {
@@ -54,6 +61,64 @@ body.layout-blog .site > main {
     flex: 0 0 600px;
 }
 
+body .site > article {
+    opacity: 0;
+    transform: translateX(-5em);
+    transition: 
+    opacity 0.4s ease-in 0.3s,
+    transform 0.4s ease-in-out 0.3s;
+}
+
+body.loaded .site > article {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 body.layout-blog .site > aside {
     flex: 1 1 200px;
 }
+
+/* АНИМАЦИЯ  https://tympanus.net/codrops/2024/01/17/a-practical-introduction-to-scroll-driven-animations-with-css-scroll-and-view/ */
+/* article p {
+    display: inline-block;
+    opacity: 0;
+    animation: spin linear both;
+    animation-timeline: view();
+    animation-range: 25vh 75vh;
+    
+}
+
+@keyframes spin {
+    to {
+        opacity: 1;
+    }
+} */
+
+/* АНИМАЦИЯ 1*/
+/* article header h2 {
+animation: slide 3s ease-in 1s infinite;
+}
+
+@keyframes slide {
+    0% {
+transform: translateX(0);
+}
+15% {
+transform: translateX(15em);
+}
+30% {
+transform: translateX(10em);
+}
+45% {
+transform: translateX(20em);
+}
+60% {
+transform: translateX(5em);
+}
+75% {
+transform: translateX(25em);
+}
+100% {
+transform: translateX(0%);
+}
+} */

@@ -9,20 +9,20 @@
     {% endif %}
     <title> {{ page.title }} - {{ site.title }} </title>
     <link rel="stylesheet" href="/assets/styles/site.css">
+    <script>
+        window.addEventListener("load", (event) => {
+            document.querySelector('body').classList.add('loaded');
+        });
+    </script>
 </head>
 
 <body class="layout-{{ page.layout }} page-{{page.title | slugify}} theme-dark">
-
-  
-        <input type="radio" name="theme" id="Light">
-        <input type="radio" name="theme" id="Dark">
-
-    </select>
     
     <div class="site">
-
+        
         <header class="site-header">
             <h1 class="site-title">{{site.title}}</h1>
             
             {% include navigation.html %}
         </header>
+        
