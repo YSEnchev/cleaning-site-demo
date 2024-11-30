@@ -5,10 +5,12 @@
 #light:checked ~ .site {
     --clr-background: #4682B4;
     --clr-text: #F0F0F0;
+
+    border: 20px solid red;
 }
 
 
-#dark:checked~ .site {
+#dark:checked ~ .site {
     --clr-background: #F0F0F0;
     --clr-text: #4682B4;
 }
