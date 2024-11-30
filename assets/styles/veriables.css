@@ -2,16 +2,13 @@
     color-scheme: light dark;
 }
 
-body.theme-light {
-
-    --clr-background: black;
-    --clr-text: red;
-    
+#light:checked ~ .site {
+    --clr-background: #4682B4;
+    --clr-text: #F0F0F0;
 }
 
-body.theme-dark {
 
+#dark:checked~ .site {
     --clr-background: #F0F0F0;
     --clr-text: #4682B4;
-    
 }

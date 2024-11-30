@@ -24,7 +24,7 @@
 
 .main-nav a {
     display: block;
-    color: #86C232;
+    color: #4682B4;
     text-decoration: none;
     padding: 0.5em 1em;
     border-radius: 0.3em;
@@ -32,6 +32,6 @@
 
 .main-nav li.current-page > a,
 .main-nav a:hover {
-    background:#86C232;
+    background:#4682B4;
     color: #F0F0F0;
 }
